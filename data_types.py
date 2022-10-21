@@ -1,6 +1,6 @@
 student_name = 'Vasiliy Vasilyev'
 student_country = 'Ukrain'
-students_city = 'Odessa'
+students_city = 'Odesa'
 student_street = 'Pushkinskaya'
 house_nomber = 15
 flat_number = 7
