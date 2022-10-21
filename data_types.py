@@ -21,5 +21,5 @@ print('birthday month:', date_of_birthday_month, type(date_of_birthday_month))
 print('yaer:', date_of_birthday_year, type(date_of_birthday_year))
 print('age:', student_age, type(student_age))
 print('telephone:', telephone_number, type(telephone_number))
-print(1)
+
 
