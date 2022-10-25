@@ -1,6 +1,6 @@
 student_name = 'Vasiliy Vasilyev'
 student_country = 'Ukrain'
-students_city = 'Odessa'
+students_city = 'Odesa'
 student_street = 'Pushkinskaya'
 house_nomber = 15
 flat_number = 7
@@ -22,5 +22,6 @@ print('yaer:', date_of_birthday_year, type(date_of_birthday_year))
 print('age:', student_age, type(student_age))
 print('telephone:', telephone_number, type(telephone_number))
 print(1)
+
 
 
