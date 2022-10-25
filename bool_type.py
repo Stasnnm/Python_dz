@@ -7,13 +7,15 @@ print(sim_large)
 sim_less = 5 <= 5
 print(sim_less)
 
-result_tr_or = True or True or False
-print(result_tr_or)
-result_tr_and = True and True or False
-print(result_tr_and)
-result_tr_not = True and True and not False
-print(result_tr_not)
-result_not_tr = not True or not True or not False
-print(result_not_tr)
-result_last = not True or True and not False
-print(result_last)
+print(True or True or False)
+print(True and True or False)
+print(True and True and not False)
+print(not True or not True or not False)
+print(not True or True and not False)
+
+print('bool None -', bool(None), ';',  'bool 7 -',  bool(7))
+print('(bool None == bool 7) -', bool(None) == bool(7))
+print('bool " " -', bool(' '), ';', 'bool (10 - 1) -', bool(10 - 1))
+print('bool(" ") == bool(10 - 1))', bool(' ') == bool(10 - 1))
+print('bool (True or False) -', bool(True or False))
+print('bool print - ', bool(print('123')))
