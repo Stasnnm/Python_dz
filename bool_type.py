@@ -33,8 +33,8 @@ print('bool(True or false) == bool(print("123"))-', tru_or_fal == f_prin)
 f_typ = bool(type(None))
 f_id = bool(id(None))
 print('bool(type(None)) -', f_typ, 'bool(id(None))', f_id)
-comp_four = print('bool(type(None)) == bool(id(None))', f_typ == f_id)
-
+comp_four = bool(f_typ == f_id)
+print('bool(type(None)) == bool(id(None))', comp_four)
 
 
 
