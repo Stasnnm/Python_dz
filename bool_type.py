@@ -7,27 +7,34 @@ print(sim_large)
 sim_less = 5 <= 5
 print(sim_less)
 
-result_tr_or = True or True or False
-print(result_tr_or)
-result_tr_and = (True and True) or False
-print(result_tr_and)
-result_tr_not = True and True and not False
-print(result_tr_not)
-result_not_tr = (not True or not True) or not False
-print(result_not_tr)
-result_last = not True or (True and not False)
-print(result_last)
+print(True or True or False)
+print(True and True or False)
+print(True and True and not False)
+print(not True or not True or not False)
+print(not True or True and not False)
 
 bool_none = bool(None)
 print('bool_none -', bool_none)
 bool_numb = bool (7)
 print('bool_numb -', bool_numb)
 comp = bool(bool_numb == bool_none)
-print('comp', comp)
-empt_str = bool('')
+print('bool_none == bool_numb -', comp)
+empt_str = bool("")
 subtr = bool(10 - 1)
 print('empt_str', empt_str, 'subtr', subtr)
 comp_two = bool(empt_str == subtr)
-print(comp_two)
+print('bool("") == bool(10 - 1) -', comp_two)
+tru_or_fal = bool(True or False)
+f_prin = print('123')
+comp_three = bool(tru_or_fal) == f_prin
+print('bool True or False -', tru_or_fal)
+print('bool(print("123"))- ', f_prin)
+print('bool(True or false) == bool(print("123"))-', tru_or_fal == f_prin)
+f_typ = bool(type(None))
+f_id = bool(id(None))
+print('bool(type(None)) -', f_typ, 'bool(id(None))', f_id)
+comp_four = print('bool(type(None)) == bool(id(None))', f_typ == f_id)
+
+
 
 
