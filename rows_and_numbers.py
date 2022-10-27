@@ -1,8 +1,10 @@
 name = input('input your name:')
 print(f'Good day {name}')
 
-val = input('input float number: ')
-val_flo = float(val)
-print(val_flo)
-val_int = int(val_flo)
-print(val_int)
+val = float(input('input float number: '))
+print('your value is :', val)
+val_int = int(val)
+print('int of yor value is :', val_int)
+val_deg = val_int ** 4
+print('your value in fourth degree', val_int)
+
