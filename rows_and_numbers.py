@@ -11,9 +11,4 @@ print('square of your number', val_squar)
 div_val = (val_int % 2)
 print('remainder of division :', div_val)
 
-name_two = input('input your name:')
-print(name_two)
-print(name_two.strip())
-print(f'Hello {name_two.capitalize()}')
-print(len(name_two))
-print(name_two[::-1])
+
