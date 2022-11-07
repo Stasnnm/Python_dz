@@ -1,7 +1,17 @@
-num_one = float(input('input number one : '))
-num_two = float(input('input nomber two : '))
-typ_one = print('num_one is int') if (num_one % 1) == 0 else print('num_one is float')
-typ_two = print('num two is int') if (num_two % 1) ==0 else print('num_two is float')
+num_one = input('input number one : ')
+num_two = input('input nomber two : ')
+try:
+    num_one = int(num_one)
+    print('number one is integer')
+except:
+    num_one = float(num_one)
+    print('number one is float')
+try:
+    num_two = int(num_two)
+    print('number two is integer')
+except:
+    num_two = float(num_two)
+    print('number two is float')
 ope_num = input('input operation "+" or "-" or "/" or "*" or "**" : ')
 if ope_num == '+':
     res = num_one + num_two
@@ -15,11 +25,8 @@ elif ope_num == '**':
     res = num_one ** num_two
 else:
     print('incorrect operation')
+print('type of result is: ', type(res))
 
-if (num_one % 1) == 0 and (num_two % 1) == 0:
-    print(int(res))
-else:
-    print(float(res))
 if num_one < num_two:
     print('num_one > num_two')
 elif num_one > num_two:
