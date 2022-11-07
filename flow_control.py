@@ -26,14 +26,12 @@ elif ope_num == '**':
 else:
     print('incorrect operation')
 print('type of result is: ', type(res))
-
 if num_one < num_two:
     print('num_one > num_two')
 elif num_one > num_two:
     print('num_one > num_two')
 else:
     print('num_one = num_two')
-
 if (num_one % 1) == 0:
         print('order num_one :', len(str(int(num_one))))
 else:
